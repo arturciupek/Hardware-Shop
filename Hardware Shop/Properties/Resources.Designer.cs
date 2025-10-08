@@ -93,6 +93,26 @@ namespace Hardware_Shop.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap customers_transparent_128 {
+            get {
+                object obj = ResourceManager.GetObject("customers_transparent_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout_transparent_128 {
+            get {
+                object obj = ResourceManager.GetObject("logout_transparent_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NicePng_construction_tools_png_1452311 {
             get {
                 object obj = ResourceManager.GetObject("NicePng_construction-tools-png_1452311", resourceCulture);
@@ -146,6 +166,26 @@ namespace Hardware_Shop.Properties {
         internal static System.Drawing.Bitmap product__2_ {
             get {
                 object obj = ResourceManager.GetObject("product (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap products_transparent_128 {
+            get {
+                object obj = ResourceManager.GetObject("products_transparent_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sales_transparent_128 {
+            get {
+                object obj = ResourceManager.GetObject("sales_transparent_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

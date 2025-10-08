@@ -113,5 +113,17 @@
   <ItemGroup>
     <None Include="Resources\power-off %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products_transparent_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_transparent_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_transparent_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_transparent_128.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

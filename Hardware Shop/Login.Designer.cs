@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Close = new System.Windows.Forms.Label();
             this.UserTb = new System.Windows.Forms.TextBox();
             this.PassTb = new System.Windows.Forms.TextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ClrLbl = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,16 +50,6 @@
             this.label1.Size = new System.Drawing.Size(635, 98);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hardware Shop";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Hardware_Shop.Properties.Resources.NicePng_construction_tools_png_1452311;
-            this.pictureBox1.Location = new System.Drawing.Point(399, 201);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(449, 382);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -122,16 +112,26 @@
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // ClrLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(543, 1064);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 53);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Clear";
+            this.ClrLbl.AutoSize = true;
+            this.ClrLbl.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ClrLbl.ForeColor = System.Drawing.Color.White;
+            this.ClrLbl.Location = new System.Drawing.Point(543, 1064);
+            this.ClrLbl.Name = "ClrLbl";
+            this.ClrLbl.Size = new System.Drawing.Size(136, 53);
+            this.ClrLbl.TabIndex = 8;
+            this.ClrLbl.Text = "Clear";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Hardware_Shop.Properties.Resources.NicePng_construction_tools_png_1452311;
+            this.pictureBox1.Location = new System.Drawing.Point(399, 201);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(449, 382);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Login
             // 
@@ -140,7 +140,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(1249, 1240);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ClrLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PassTb);
             this.Controls.Add(this.UserTb);
@@ -169,7 +169,7 @@
         private System.Windows.Forms.TextBox UserTb;
         private System.Windows.Forms.TextBox PassTb;
         private System.Windows.Forms.Button LoginBtn;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label ClrLbl;
     }
 }
 
