@@ -29,11 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ProNameTb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,11 +47,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.PriceTb = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.AddBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.DeleteBtn = new System.Windows.Forms.Button();
@@ -81,6 +81,16 @@
             this.panel1.Size = new System.Drawing.Size(544, 1252);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Hardware_Shop.Properties.Resources.logout_transparent_128;
+            this.pictureBox5.Location = new System.Drawing.Point(69, 1090);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -91,6 +101,16 @@
             this.label5.Size = new System.Drawing.Size(168, 53);
             this.label5.TabIndex = 10;
             this.label5.Text = "Logout";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Hardware_Shop.Properties.Resources.sales_transparent_128;
+            this.pictureBox4.Location = new System.Drawing.Point(69, 775);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
             // 
             // label4
             // 
@@ -103,6 +123,16 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Sales";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Hardware_Shop.Properties.Resources.customers_transparent_128;
+            this.pictureBox3.Location = new System.Drawing.Point(69, 608);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -113,6 +143,16 @@
             this.label3.Size = new System.Drawing.Size(240, 53);
             this.label3.TabIndex = 6;
             this.label3.Text = "Customers";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Hardware_Shop.Properties.Resources.products_transparent_128;
+            this.pictureBox2.Location = new System.Drawing.Point(69, 445);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
@@ -135,6 +175,16 @@
             this.label1.Size = new System.Drawing.Size(435, 68);
             this.label1.TabIndex = 3;
             this.label1.Text = "Hardware Shop";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Hardware_Shop.Properties.Resources.NicePng_construction_tools_png_1452311;
+            this.pictureBox1.Location = new System.Drawing.Point(153, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(229, 196);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // ProNameTb
             // 
@@ -219,56 +269,6 @@
             this.label9.Size = new System.Drawing.Size(164, 68);
             this.label9.TabIndex = 12;
             this.label9.Text = "Price";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Hardware_Shop.Properties.Resources.logout_transparent_128;
-            this.pictureBox5.Location = new System.Drawing.Point(69, 1090);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(134, 134);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Hardware_Shop.Properties.Resources.sales_transparent_128;
-            this.pictureBox4.Location = new System.Drawing.Point(69, 775);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(134, 134);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Hardware_Shop.Properties.Resources.customers_transparent_128;
-            this.pictureBox3.Location = new System.Drawing.Point(69, 608);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(134, 134);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Hardware_Shop.Properties.Resources.products_transparent_128;
-            this.pictureBox2.Location = new System.Drawing.Point(69, 445);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 134);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Hardware_Shop.Properties.Resources.NicePng_construction_tools_png_1452311;
-            this.pictureBox1.Location = new System.Drawing.Point(153, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 196);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // AddBtn
             // 
