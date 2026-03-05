@@ -16,5 +16,38 @@ namespace Hardware_Shop
         {
             InitializeComponent();
         }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (UserTb.Text == "Admin" && PassTb.Text == "Password")
+                {
+                    MessageBox.Show("Login Successful!");
+                    Product product = new Product();
+                    product.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username or Password!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void ClrLbl_Click(object sender, EventArgs e)
+        {
+            UserTb.Text = "";
+            PassTb.Text = "";
+        }
     }
 }

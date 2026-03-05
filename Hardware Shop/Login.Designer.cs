@@ -83,6 +83,7 @@
             this.Close.Size = new System.Drawing.Size(72, 68);
             this.Close.TabIndex = 4;
             this.Close.Text = "X";
+            this.Close.Click += new System.EventHandler(this.Close_Click);
             // 
             // UserTb
             // 
@@ -105,12 +106,13 @@
             this.LoginBtn.BackColor = System.Drawing.Color.White;
             this.LoginBtn.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LoginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.LoginBtn.Location = new System.Drawing.Point(497, 953);
+            this.LoginBtn.Location = new System.Drawing.Point(497, 951);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(229, 80);
             this.LoginBtn.TabIndex = 7;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // ClrLbl
             // 
@@ -122,6 +124,7 @@
             this.ClrLbl.Size = new System.Drawing.Size(136, 53);
             this.ClrLbl.TabIndex = 8;
             this.ClrLbl.Text = "Clear";
+            this.ClrLbl.Click += new System.EventHandler(this.ClrLbl_Click);
             // 
             // pictureBox1
             // 
@@ -139,7 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(1249, 1240);
+            this.ClientSize = new System.Drawing.Size(1249, 1249);
             this.Controls.Add(this.ClrLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PassTb);
