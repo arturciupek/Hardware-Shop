@@ -101,6 +101,7 @@
             this.label5.Size = new System.Drawing.Size(168, 53);
             this.label5.TabIndex = 10;
             this.label5.Text = "Logout";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox4
             // 
@@ -122,6 +123,7 @@
             this.label4.Size = new System.Drawing.Size(125, 53);
             this.label4.TabIndex = 8;
             this.label4.Text = "Sales";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox3
             // 
@@ -143,6 +145,7 @@
             this.label3.Size = new System.Drawing.Size(240, 53);
             this.label3.TabIndex = 6;
             this.label3.Text = "Customers";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2
             // 
@@ -281,6 +284,7 @@
             this.AddBtn.TabIndex = 14;
             this.AddBtn.Text = "Insert";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // UpdateBtn
             // 
@@ -293,6 +297,7 @@
             this.UpdateBtn.TabIndex = 15;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // DeleteBtn
             // 
@@ -305,6 +310,7 @@
             this.DeleteBtn.TabIndex = 16;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // ClearBtn
             // 
@@ -317,6 +323,7 @@
             this.ClearBtn.TabIndex = 17;
             this.ClearBtn.Text = "Clear";
             this.ClearBtn.UseVisualStyleBackColor = false;
+            this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // dataGridView1
             // 
@@ -328,6 +335,7 @@
             this.dataGridView1.RowTemplate.Height = 40;
             this.dataGridView1.Size = new System.Drawing.Size(1360, 549);
             this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // label10
             // 
@@ -352,6 +360,7 @@
             this.Cross.Size = new System.Drawing.Size(79, 76);
             this.Cross.TabIndex = 20;
             this.Cross.Text = "X";
+            this.Cross.Click += new System.EventHandler(this.Cross_Click);
             // 
             // Product
             // 
