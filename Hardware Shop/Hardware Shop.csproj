@@ -143,5 +143,8 @@
   <ItemGroup>
     <None Include="Resources\logout_transparent_128.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\schema.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
