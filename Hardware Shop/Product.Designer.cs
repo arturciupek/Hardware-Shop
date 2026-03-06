@@ -226,6 +226,12 @@
             // 
             this.CatComBox.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CatComBox.FormattingEnabled = true;
+            this.CatComBox.Items.AddRange(new object[] {
+            "Tools",
+            "Paint Tools",
+            "Building Mat",
+            "Power Tools",
+            "Plumbing"});
             this.CatComBox.Location = new System.Drawing.Point(1079, 325);
             this.CatComBox.Name = "CatComBox";
             this.CatComBox.Size = new System.Drawing.Size(254, 61);

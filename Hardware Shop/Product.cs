@@ -40,9 +40,6 @@ namespace Hardware_Shop
                 con.Close();
             }
         }
-
-
-
         private void Cross_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -104,7 +101,7 @@ namespace Hardware_Shop
             }
             finally
             {
-
+                con.Close();
             }
         }
 

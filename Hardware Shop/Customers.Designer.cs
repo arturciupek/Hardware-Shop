@@ -40,9 +40,9 @@
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.PriceTb = new System.Windows.Forms.TextBox();
+            this.CusEmail = new System.Windows.Forms.TextBox();
             this.EmailTb = new System.Windows.Forms.Label();
-            this.QuantTb = new System.Windows.Forms.TextBox();
+            this.CusPhone = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.CusNameTb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -113,6 +113,7 @@
             this.Cross.Size = new System.Drawing.Size(79, 76);
             this.Cross.TabIndex = 36;
             this.Cross.Text = "X";
+            this.Cross.Click += new System.EventHandler(this.Cross_Click);
             // 
             // label10
             // 
@@ -136,6 +137,7 @@
             this.dataGridView1.RowTemplate.Height = 40;
             this.dataGridView1.Size = new System.Drawing.Size(1360, 549);
             this.dataGridView1.TabIndex = 34;
+            this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // ClearBtn
             // 
@@ -148,6 +150,7 @@
             this.ClearBtn.TabIndex = 33;
             this.ClearBtn.Text = "Clear";
             this.ClearBtn.UseVisualStyleBackColor = false;
+            this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // DeleteBtn
             // 
@@ -160,6 +163,7 @@
             this.DeleteBtn.TabIndex = 32;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // UpdateBtn
             // 
@@ -172,6 +176,7 @@
             this.UpdateBtn.TabIndex = 31;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // AddBtn
             // 
@@ -184,6 +189,7 @@
             this.AddBtn.TabIndex = 30;
             this.AddBtn.Text = "Insert";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // pictureBox2
             // 
@@ -195,14 +201,14 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
-            // PriceTb
+            // CusEmail
             // 
-            this.PriceTb.BackColor = System.Drawing.Color.White;
-            this.PriceTb.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.PriceTb.Location = new System.Drawing.Point(1489, 330);
-            this.PriceTb.Name = "PriceTb";
-            this.PriceTb.Size = new System.Drawing.Size(369, 62);
-            this.PriceTb.TabIndex = 29;
+            this.CusEmail.BackColor = System.Drawing.Color.White;
+            this.CusEmail.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.CusEmail.Location = new System.Drawing.Point(1489, 330);
+            this.CusEmail.Name = "CusEmail";
+            this.CusEmail.Size = new System.Drawing.Size(369, 62);
+            this.CusEmail.TabIndex = 29;
             // 
             // EmailTb
             // 
@@ -216,14 +222,14 @@
             this.EmailTb.TabIndex = 28;
             this.EmailTb.Text = "Email";
             // 
-            // QuantTb
+            // CusPhone
             // 
-            this.QuantTb.BackColor = System.Drawing.Color.White;
-            this.QuantTb.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.QuantTb.Location = new System.Drawing.Point(1048, 330);
-            this.QuantTb.Name = "QuantTb";
-            this.QuantTb.Size = new System.Drawing.Size(369, 62);
-            this.QuantTb.TabIndex = 27;
+            this.CusPhone.BackColor = System.Drawing.Color.White;
+            this.CusPhone.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.CusPhone.Location = new System.Drawing.Point(1048, 330);
+            this.CusPhone.Name = "CusPhone";
+            this.CusPhone.Size = new System.Drawing.Size(369, 62);
+            this.CusPhone.TabIndex = 27;
             // 
             // label7
             // 
@@ -267,6 +273,7 @@
             this.label5.Size = new System.Drawing.Size(168, 53);
             this.label5.TabIndex = 10;
             this.label5.Text = "Logout";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -278,6 +285,7 @@
             this.label4.Size = new System.Drawing.Size(125, 53);
             this.label4.TabIndex = 8;
             this.label4.Text = "Sales";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -300,6 +308,7 @@
             this.label2.Size = new System.Drawing.Size(202, 53);
             this.label2.TabIndex = 4;
             this.label2.Text = "Products";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -356,9 +365,9 @@
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.PriceTb);
+            this.Controls.Add(this.CusEmail);
             this.Controls.Add(this.EmailTb);
-            this.Controls.Add(this.QuantTb);
+            this.Controls.Add(this.CusPhone);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.CusNameTb);
             this.Controls.Add(this.label6);
@@ -368,7 +377,6 @@
             this.Name = "Customers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customers";
-            this.Load += new System.EventHandler(this.Customers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -396,9 +404,9 @@
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox PriceTb;
+        private System.Windows.Forms.TextBox CusEmail;
         private System.Windows.Forms.Label EmailTb;
-        private System.Windows.Forms.TextBox QuantTb;
+        private System.Windows.Forms.TextBox CusPhone;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox CusNameTb;
         private System.Windows.Forms.Label label6;
